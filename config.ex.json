@@ -1,0 +1,11 @@
+{
+    "inc_status" : 0,
+    "cb_port" : 3003,
+    "cb_conf": "CONFFORCALLBACK",
+    "lp_access_oken": "TOKENHERE",
+    "lp_group_id": "GROUPID",
+    "lp_v": 5.103,
+
+    "ws_port": 3004
+    
+}
