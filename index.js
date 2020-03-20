@@ -120,6 +120,7 @@ function getLpData(url) {
 }
 function handleLpData(dlp) {
     let jdlp = JSON.parse(dlp);
+    if (!jdlp.updates) {return dlp}
     if(jdlp.updates.length == 0) { return dlp };
     if ( typeof(jdlp.updates) == "object" ) {
         if (jdlp.updates[0].type == "message_new") {
